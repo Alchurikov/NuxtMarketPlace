@@ -12,11 +12,6 @@
       <dd class="text-gray-900">${{ totals.shipping.toFixed(2) }}</dd>
     </div>
 
-    <div class="flex justify-between">
-      <dt>Taxes</dt>
-      <dd class="text-gray-900">${{ totals.tax.toFixed(2) }}</dd>
-    </div>
-
     <div
       class="flex items-center justify-between border-t border-gray-200 pt-6 text-gray-900"
     >

@@ -9,7 +9,6 @@ export interface OrderItem {
 export interface OrderTotals {
   subtotal: number;
   shipping: number;
-  tax: number;
   total: number;
 }
 

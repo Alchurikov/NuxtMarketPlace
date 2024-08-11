@@ -28,9 +28,8 @@ export default defineEventHandler(async (event) => {
       items: body.items,
       totals: {
         subtotal: body.total,
-        shipping: 0,
-        tax: 0,
-        total: body.total,
+        shipping: 5,
+        total: body.total + 5,
       },
       shippingAddress: {
         street: body.address,
